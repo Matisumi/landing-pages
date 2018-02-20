@@ -1,0 +1,276 @@
+@font-face {
+  font-family: 'League Spartan';
+  src: url(/league-spartan/LeagueSpartan-Bold.otf);
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 10, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/flynn.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 14, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/flynn.scss */
+html, body {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  font-size: 16px;
+  justify-content: center;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* line 25, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/flynn.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 29, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/flynn.scss */
+h1, h2, h3, h4, a {
+  font-family: "League Spartan", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.2em;
+}
+
+/* line 35, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/flynn.scss */
+.contact-button {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: none;
+}
+
+/* line 42, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/flynn.scss */
+.flag {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* line 48, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/flynn.scss */
+.part1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1020px;
+  height: 793.8px;
+}
+
+/* line 56, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/flynn.scss */
+.part2 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 1020px;
+  height: 502.533px;
+}
+
+/* line 64, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/flynn.scss */
+.part3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* line 70, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/flynn.scss */
+nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+/* line 76, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/flynn.scss */
+.headnav {
+  display: flex;
+  justify-content: right;
+}
+
+/* line 82, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/flynn.scss */
+.ico {
+  display: flex;
+  align-self: left;
+}
+
+/* line 87, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/flynn.scss */
+h1 {
+  font-size: 4.5rem;
+  text-align: center;
+}
+
+/* line 92, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/flynn.scss */
+#poster {
+  background-image: url("https://flynn.io/images/flynn_demo_poster-80eaa060.jpg");
+  width: 888px;
+  height: 500px;
+}
+
+/* line 100, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/flynn.scss */
+.midnav {
+  padding-top: 40px;
+  width: 1020px;
+  display: flex;
+  justify-content: center;
+}
+/* line 107, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/flynn.scss */
+.midnav li {
+  height: 60px;
+  border: 2px solid #c2c2c2;
+}
+/* line 110, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/flynn.scss */
+.midnav li a {
+  color: #1bb45e;
+  font-size: 1.375rem;
+}
+/* line 116, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/flynn.scss */
+.midnav li:hover {
+  background-color: #c2c2c2;
+}
+/* line 118, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/flynn.scss */
+.midnav li:hover a {
+  color: white;
+}
+/* line 123, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/flynn.scss */
+.midnav #li1 {
+  width: 310px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* line 130, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/flynn.scss */
+.midnav #li2 {
+  width: 340px;
+  border-left: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* line 138, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/flynn.scss */
+.midnav #li3 {
+  width: 370px;
+  border-left: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 148, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/flynn.scss */
+section h2 {
+  font-size: 3.425rem;
+  width: 700px;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+/* line 156, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/flynn.scss */
+h4.content {
+  font-size: 1.125rem;
+  color: #727272;
+  line-height: 1.75em;
+  width: 700px;
+  padding-bottom: 0;
+}
+
+/* line 164, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/flynn.scss */
+h3 {
+  font-size: 2.5rem;
+  align-self: left;
+}
+
+/* line 169, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/flynn.scss */
+#content-list {
+  width: 736px;
+  line-height: 1.75em;
+}
+
+/* line 174, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/flynn.scss */
+.content {
+  color: #727272;
+  width: 700px;
+}
+/* line 177, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/flynn.scss */
+.content a {
+  color: #08a1f4;
+}
+
+/* line 182, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/flynn.scss */
+#trynow {
+  font-size: 1.375rem;
+  line-height: 2.73em;
+  padding: 0 1.25em;
+  padding-top: 0.146em;
+  border-radius: 2em;
+  background-color: #1bb45e;
+  color: #ffffff;
+  margin-top: 2.91em;
+  margin-bottom: 2.91em;
+}
+
+/* line 194, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/flynn.scss */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1rem;
+  line-height: 1.5em;
+}
+/* line 201, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/flynn.scss */
+form input {
+  width: 179.333px;
+  height: 34px;
+  line-height: normal;
+  padding: 0.25em;
+}
+/* line 208, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/flynn.scss */
+form h2 {
+  font-size: 3.425rem;
+}
+
+/* line 215, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/flynn.scss */
+button {
+  background-color: #1eb45d;
+  border: none;
+  border-radius: 4px;
+  color: #ffffff;
+  padding: 0.4em 0.6em;
+  width: 94.5833px;
+  height: 36.8px;
+}
+
+/* line 226, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/flynn.scss */
+.ressources {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 1020px;
+  justify-content: space-between;
+  color: #5a5a5a;
+}
+/* line 232, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/flynn.scss */
+.ressources li a {
+  color: inherit;
+}
+
+/* line 236, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/flynn.scss */
+.copyright {
+  display: flex;
+  text-align: center;
+  font-size: 0.75rem;
+  padding-top: 4em;
+  padding-bottom: 4em;
+  color: #747474;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+

@@ -145,7 +145,7 @@ h1{
 
 }
 
-h2 {
+section h2 {
 	font-size: 3.425rem;
 	width: 700px;
 	margin: 0;
@@ -188,6 +188,58 @@ h3{
 	background-color: #1bb45e;
 	color: #ffffff;
 	margin-top: 2.91em;
-margin-bottom: 2.91em;
+	margin-bottom: 2.91em;
 }
+
+form{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-size: 1rem;
+	line-height: 1.5em;
+
+	input{
+		width: 179.333px;
+		height: 34px;
+		line-height: normal;
+		padding: 0.25em;
+	}
+
+	h2{
+		font-size: 3.425rem;
+		
+	}
+
+}
+
+button{
+	background-color: #1eb45d;
+border: none;
+border-radius: 4px;
+color: #ffffff;
+padding: 0.4em 0.6em;
+width: 94.5833px;
+height: 36.8px;
+}
+
+
+.ressources{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	width: 1020px;
+	justify-content: space-between;
+	color: #5a5a5a;
+	li a{ color: inherit; }
+
+}
+
+.copyright{
+	display: flex;
+	text-align: center;
+	font-size: 0.75rem;
+	padding-top: 4em;
+	padding-bottom: 4em;
+	color: #747474;
+}
+
 
