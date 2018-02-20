@@ -1,0 +1,95 @@
+@font-face {
+  font-family: 'League Spartan';
+  src: url(/league-spartan/LeagueSpartan-Bold.otf);
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 12, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/flynn.scss */
+html, body {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+/* line 21, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/flynn.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 25, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/flynn.scss */
+h1, h2, h3, h4 {
+  font-family: "League Spartan", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.2em;
+}
+
+/* line 30, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/flynn.scss */
+.contact-button {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: none;
+}
+
+/* line 37, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/flynn.scss */
+.flag {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* line 43, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/flynn.scss */
+.part1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1020px;
+  height: 793.8px;
+}
+
+/* line 51, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/flynn.scss */
+.part2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* line 57, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/flynn.scss */
+.part3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* line 63, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/flynn.scss */
+nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+/* line 68, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/flynn.scss */
+.headnav {
+  display: flex;
+  justify-content: right;
+}
+
+/* line 74, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/flynn.scss */
+.ico {
+  display: flex;
+  align-self: left;
+}
+
+/* line 79, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/flynn.scss */
+h1 {
+  font-size: 4.5rem;
+  text-align: center;
+}
+
+/* line 84, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/flynn.scss */
+#poster {
+  background-image: url("https://flynn.io/images/flynn_demo_poster-80eaa060.jpg");
+  width: 888px;
+  height: 500px;
+}
