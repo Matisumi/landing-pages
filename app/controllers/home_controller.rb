@@ -1,12 +1,11 @@
 class HomeController < ApplicationController
-layout 'flynn', only: [:flynn]
-layout 'checkr', only: [:checkr]
 
   def checkr
+  		render :layout => 'checkr'
   end
 
   def flynn
-
+  		render :layout => 'flynn'
   end
 
   def sparks
