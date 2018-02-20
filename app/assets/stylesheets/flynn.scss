@@ -1,11 +1,4 @@
 
-@font-face {
-  font-family: 'League Spartan';
-  src:font-url('/league-spartan/LeagueSpartan-Bold.otf');
-  
-  font-weight: normal;
-  font-style: normal;
-	}
 
 a{
 	text-decoration: none;
@@ -53,6 +46,21 @@ h1, h2, h3, h4, a{
 	height: 793.8px;
 }
 
+#play{
+	
+	background-color: rgba(115,133,159,0.5);
+	
+  margin-left: 400px;
+  margin-top: 230px;
+  font-size: 3em;
+	line-height: 1.5em;
+	height: 45px;
+	width: 90px;
+	display: block;
+	border: 2px solid #fff;
+	border-radius: 10px;
+}
+
 .part2{
 	display: flex;
 	align-items: center;
@@ -76,7 +84,7 @@ nav ul{
 .headnav{
 	display: flex;
 	justify-content: right;
-
+	
 }
 
 .ico{
