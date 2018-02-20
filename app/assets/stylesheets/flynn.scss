@@ -20,6 +20,7 @@ html, body{
 }
 
 h1, h2, h3, h4, a{
+	padding-top: 0px;
 	font-family: "League Spartan", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	line-height: 1.2em;
 
@@ -36,6 +37,73 @@ h1, h2, h3, h4, a{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+}
+
+nav ul{
+	display: flex;
+	list-style-type: none;
+	align-items: center;
+}
+
+.navbutton{
+	 background-color: #1eb45d;
+border: none;
+border-radius: 25px;
+color: #ffffff;
+padding: 0.88em 1.36em;
+width: 77.5833px;
+height: 52.8px;
+}
+
+#about{
+	display: flex;
+	font-size: 20px;
+	align-items: center;
+	width: 74px;
+	height: 82px;
+	a{
+	color:#1bb45e;
+	}
+}
+#docs{
+	display: flex;
+	font-size: 20px;
+	align-items: center;
+	width: 60px;
+	height: 82px;
+	a{
+	color:#1bb45e;
+	}
+}
+#blog{
+	display: flex;
+	font-size: 20px;
+	align-items: center;
+	width: 58.75px;
+	height: 82px;
+	a{
+	color:#1bb45e;
+	}
+}
+#price{
+	display: flex;
+	font-size: 20px;
+	align-items: center;
+	width: 81.0834px;
+	height: 82px;
+	a{
+	color:#1bb45e;
+	}
+}
+
+
+.ico{
+	width: 88.15px;
+	height: 35.2px;
+}
+
+.spacer{
+	width:544.6px;
 }
 
 .part1{
@@ -75,22 +143,8 @@ h1, h2, h3, h4, a{
 	align-items: center;
 }
 
-nav ul{
-	display: flex;
-	list-style-type: none;
-}
 
 
-.headnav{
-	display: flex;
-	justify-content: right;
-	
-}
-
-.ico{
-	display: flex;
-	align-self: left;
-}
 
 h1{
 	font-size: 4.5rem;

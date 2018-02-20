@@ -5,13 +5,14 @@
 
 	<header>
 		<nav>
-			<ul class="headnav">
-				<li class="ico"><a href="/"><%= image_tag "flynn-acaf9509.svg" %></a></li>
-				<li><a href="/">About</a></li>
-				<li><a href="/">Docs</a></li>
-				<li><a href="/">Blog</a></li>
-				<li><a href="/">Pricing</a></li>
-				<li class="nav button"><a href="/">Try</a></li>
+			<ul>
+				<li><a href="/"><%= image_tag "flynn-acaf9509.svg", class: "ico" %></a></li>
+				<li class="spacer"></li>
+				<li id="about"><a href="/"><strong>About</strong></a></li>
+				<li id="docs"><a href="/"><strong>Docs</strong></a></li>
+				<li id="blog"><a href="/"><strong>Blog</strong></a></li>
+				<li id="price"><a href="/"><strong>Pricing</strong></a></li>
+				<li ><a href="/" class="navbutton"><strong>Try</strong></a></li>
 			</ul>
 		</nav>
 	</header>
