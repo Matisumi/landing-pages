@@ -1,0 +1,590 @@
+@charset "UTF-8";
+/* line 2, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/checkr.scss */
+html {
+  font-family: fab-font, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+/* line 8, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/checkr.scss */
+body {
+  background-color: #3C79BB;
+  color: white;
+  margin: 0px;
+}
+
+/* line 14, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/checkr.scss */
+strong {
+  text-transform: uppercase;
+  font-size: 36px;
+}
+
+/* line 19, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/checkr.scss */
+a {
+  text-decoration: none;
+  color: #102533;
+}
+
+/* line 24, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/checkr.scss */
+a:hover {
+  color: #3C79BB;
+}
+
+/* line 28, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/checkr.scss */
+h1 {
+  color: #102533;
+  font-size: 26px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+/* line 35, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/checkr.scss */
+h2 {
+  font-size: 18px;
+  color: #102533;
+}
+
+/* line 40, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/checkr.scss */
+p {
+  vertical-align: middle;
+}
+
+/* line 44, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/checkr.scss */
+.uppercase {
+  text-transform: uppercase;
+}
+
+/* line 49, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/checkr.scss */
+#section_1_background_image {
+  height: 770px;
+  background: 50% 50% / cover no-repeat;
+  background-image: url("https://checkr.com/wp-content/uploads/2015/10/checkr_header_industries-1.jpg");
+  opacity: 0.3;
+}
+
+/* line 56, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/checkr.scss */
+#section_1 {
+  box-sizing: border-box;
+  position: absolute;
+  top: 0px;
+  padding-right: 120px;
+  padding-left: 120px;
+}
+
+/* line 66, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/checkr.scss */
+nav {
+  width: 100%;
+  text-align: right;
+}
+
+/* line 74, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/checkr.scss */
+a.nav-right {
+  color: white;
+  text-decoration: none;
+}
+
+/* line 79, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/checkr.scss */
+a.nav-right:hover {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/* line 85, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/checkr.scss */
+nav li {
+  list-style-type: none;
+  display: inline;
+  padding: 0px 15px 0px 15px;
+}
+
+/* line 92, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/checkr.scss */
+header {
+  display: flex;
+  padding-top: 10px;
+}
+
+/* line 98, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/checkr.scss */
+header > div {
+  flex: 1;
+  display: flex;
+}
+
+/* line 103, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/checkr.scss */
+header > div:nth-child(2) {
+  justify-content: flex-end;
+}
+
+/* line 108, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/checkr.scss */
+header > div:nth-child(2) button {
+  margin-left: 30px;
+}
+
+/* line 112, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/checkr.scss */
+header .logo {
+  width: 130px;
+  height: 33px;
+}
+
+/* line 118, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/checkr.scss */
+header .dropdown {
+  display: flex;
+}
+
+/* line 123, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/checkr.scss */
+header .dropdown > li {
+  color: white;
+  list-style-type: none;
+  display: inline;
+  padding: 0px 15px 0px 15px;
+  position: relative;
+  cursor: pointer;
+}
+
+/* line 132, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/checkr.scss */
+header .dropdown > li:hover .dropdown-content {
+  display: block;
+}
+
+/* line 137, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/checkr.scss */
+header .dropdown-content {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  width: 140px;
+  margin-left: -70px;
+  padding: 8px 0px 8px 0px;
+  background-color: white;
+  margin-top: 20px;
+  display: none;
+}
+
+/* line 150, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/checkr.scss */
+header .dropdown-content:before {
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+  transform: rotate(45deg);
+  content: '';
+  position: absolute;
+  background: white;
+  width: 10px;
+  height: 10px;
+  top: -5px;
+  left: 50%;
+  margin-left: -5px;
+  border-radius: 2px;
+  z-index: -1;
+}
+
+/* line 165, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/checkr.scss */
+header .dropdown-content > li {
+  color: #102533;
+  list-style-type: none;
+  padding: 8px 20px 10px 20px;
+}
+
+/* line 171, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/checkr.scss */
+header button {
+  border-radius: 3px;
+  border: 2px solid #E9CA2C;
+  color: #E9CA2C;
+  background: none;
+  cursor: pointer;
+  width: 170px;
+  height: 50px;
+}
+
+/* line 181, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/checkr.scss */
+header button:hover {
+  background-color: #E9CA2C;
+  color: #102533;
+}
+
+/* line 186, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/checkr.scss */
+header button:after {
+  content: '';
+  transition: all 200ms ease 0ms;
+  display: inline-block;
+  width: 15px;
+  height: 12px;
+  background: url(data:image/svg+xml;base64,PCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjIuMCwgU1ZHIEV4cG9ydCBQbHVnLUluICAtLT4KPHN2ZyB2ZXJzaW9uPSIxLjEiCgkgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeG1sbnM6YT0iaHR0cDovL25zLmFkb2JlLmNvbS9BZG9iZVNWR1ZpZXdlckV4dGVuc2lvbnMvMy4wLyIKCSB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjExLjFweCIgaGVpZ2h0PSI4LjlweCIgdmlld0JveD0iMCAwIDExLjEgOC45IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAxMS4xIDguOTsiCgkgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI%2BCjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI%2BCgkuc3Qwe2ZpbGw6I0U5Q0EyQzt9Cjwvc3R5bGU%2BCjxkZWZzPgo8L2RlZnM%2BCjxnPgoJPGc%2BCgkJPGc%2BCgkJCTxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0xMSw0LjdjMCwwLDAtMC4xLDAtMC4xQzExLDQuNiwxMSw0LjYsMTEsNC43QzExLDQuNywxMSw0LjcsMTEsNC43eiIvPgoJCTwvZz4KCTwvZz4KCTxnPgoJCTxnPgoJCQk8cGF0aCBjbGFzcz0ic3QwIiBkPSJNMTEsNC43YzAsMCwwLTAuMSwwLTAuMUMxMSw0LjYsMTEsNC42LDExLDQuN0MxMSw0LjcsMTEsNC43LDExLDQuN3oiLz4KCQk8L2c%2BCgk8L2c%2BCgk8Zz4KCQk8Zz4KCQkJPHBhdGggY2xhc3M9InN0MCIgZD0iTTAsNC41YzAtMC40LDAuMy0wLjcsMC44LTAuN2g3LjhMNi4xLDEuM0M1LjgsMSw1LjgsMC41LDYuMSwwLjJjMC4zLTAuMywwLjgtMC4zLDEuMSwwbDMuNywzLjcKCQkJCUMxMC45LDQsMTEsNC4yLDExLDQuM2MwLDAsMCwwLjEsMCwwLjFjMCwwLDAsMC4xLDAsMC4xYzAsMCwwLDAuMSwwLDAuMWMwLDAsMCwwLDAsMGMwLDAuMS0wLjEsMC4yLTAuMiwwLjJMNy4xLDguNwoJCQkJQzYuOCw5LDYuNCw5LDYuMSw4LjdjLTAuMy0wLjMtMC4zLTAuOCwwLTEuMWwyLjQtMi40SDAuOEMwLjMsNS4yLDAsNC45LDAsNC41eiIvPgoJCTwvZz4KCTwvZz4KPC9nPgo8L3N2Zz4%3D) center center/15px 12px no-repeat;
+  margin-left: 7px;
+}
+
+/* line 196, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/checkr.scss */
+header button:hover:after {
+  content: '';
+  transition: all 200ms ease 0ms;
+  display: inline-block;
+  width: 15px;
+  height: 12px;
+  background: url(data:image/svg+xml;base64,PCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjIuMCwgU1ZHIEV4cG9ydCBQbHVnLUluICAtLT4KPHN2ZyB2ZXJzaW9uPSIxLjEiCgkgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeG1sbnM6YT0iaHR0cDovL25zLmFkb2JlLmNvbS9BZG9iZVNWR1ZpZXdlckV4dGVuc2lvbnMvMy4wLyIKCSB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjExLjFweCIgaGVpZ2h0PSI4LjlweCIgdmlld0JveD0iMCAwIDExLjEgOC45IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAxMS4xIDguOTsiCgkgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI%2BCjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI%2BCgkuc3Qwe2ZpbGw6IzMxNEI2ODt9Cjwvc3R5bGU%2BCjxkZWZzPgo8L2RlZnM%2BCjxnPgoJPGc%2BCgkJPGc%2BCgkJCTxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0xMSw0LjdjMCwwLDAtMC4xLDAtMC4xQzExLDQuNiwxMSw0LjYsMTEsNC43QzExLDQuNywxMSw0LjcsMTEsNC43eiIvPgoJCTwvZz4KCTwvZz4KCTxnPgoJCTxnPgoJCQk8cGF0aCBjbGFzcz0ic3QwIiBkPSJNMTEsNC43YzAsMCwwLTAuMSwwLTAuMUMxMSw0LjYsMTEsNC42LDExLDQuN0MxMSw0LjcsMTEsNC43LDExLDQuN3oiLz4KCQk8L2c%2BCgk8L2c%2BCgk8Zz4KCQk8Zz4KCQkJPHBhdGggY2xhc3M9InN0MCIgZD0iTTAsNC41YzAtMC40LDAuMy0wLjcsMC44LTAuN2g3LjhMNi4xLDEuM0M1LjgsMSw1LjgsMC41LDYuMSwwLjJjMC4zLTAuMywwLjgtMC4zLDEuMSwwbDMuNywzLjcKCQkJCUMxMC45LDQsMTEsNC4yLDExLDQuM2MwLDAsMCwwLjEsMCwwLjFjMCwwLDAsMC4xLDAsMC4xYzAsMCwwLDAuMSwwLDAuMWMwLDAsMCwwLDAsMGMwLDAuMS0wLjEsMC4yLTAuMiwwLjJMNy4xLDguNwoJCQkJQzYuOCw5LDYuNCw5LDYuMSw4LjdjLTAuMy0wLjMtMC4zLTAuOCwwLTEuMWwyLjQtMi40SDAuOEMwLjMsNS4yLDAsNC45LDAsNC41eiIvPgoJCTwvZz4KCTwvZz4KPC9nPgo8L3N2Zz4%3D) center center/15px 12px no-repeat;
+  margin-left: 7px;
+}
+
+/* line 206, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/checkr.scss */
+#section_1_content {
+  display: flex;
+  margin-top: 40px;
+}
+
+/* #screen_1_content > :nth-child(1) { */
+/* line 212, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/checkr.scss */
+#section_1_content > div {
+  flex: 45%;
+  margin: 75px 150px 0px 0px;
+  font-size: 16px;
+}
+
+/* Bouton Explore  */
+/* line 219, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/checkr.scss */
+#section_1_content button {
+  background-color: #E0BE2D;
+  color: #314B68;
+  font-weight: 900;
+  border: none;
+  border-radius: 5px;
+  padding: 20px 40px 20px 40px;
+  font-size: 16px;
+  margin-top: 40px;
+  cursor: pointer;
+  transition: all 100ms ease 0ms;
+}
+
+/* line 232, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/checkr.scss */
+#section_1_content button:hover {
+  opacity: 0.8;
+}
+
+/* line 236, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/checkr.scss */
+#section_1_content button:after {
+  content: '';
+  display: inline-block;
+  margin-left: 12px;
+  margin-top: 4.5px;
+  width: 14px;
+  height: 11px;
+  background: 50% 50% / 14px 11px no-repeat;
+  background-image: url(data:image/svg+xml;base64,PCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjIuMCwgU1ZHIEV4cG9ydCBQbHVnLUluICAtLT4KPHN2ZyB2ZXJzaW9uPSIxLjEiCgkgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeG1sbnM6YT0iaHR0cDovL25zLmFkb2JlLmNvbS9BZG9iZVNWR1ZpZXdlckV4dGVuc2lvbnMvMy4wLyIKCSB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjExLjFweCIgaGVpZ2h0PSI4LjlweCIgdmlld0JveD0iMCAwIDExLjEgOC45IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAxMS4xIDguOTsiCgkgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI%2BCjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI%2BCgkuc3Qwe2ZpbGw6IzMxNEI2ODt9Cjwvc3R5bGU%2BCjxkZWZzPgo8L2RlZnM%2BCjxnPgoJPGc%2BCgkJPGc%2BCgkJCTxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0xMSw0LjdjMCwwLDAtMC4xLDAtMC4xQzExLDQuNiwxMSw0LjYsMTEsNC43QzExLDQuNywxMSw0LjcsMTEsNC43eiIvPgoJCTwvZz4KCTwvZz4KCTxnPgoJCTxnPgoJCQk8cGF0aCBjbGFzcz0ic3QwIiBkPSJNMTEsNC43YzAsMCwwLTAuMSwwLTAuMUMxMSw0LjYsMTEsNC42LDExLDQuN0MxMSw0LjcsMTEsNC43LDExLDQuN3oiLz4KCQk8L2c%2BCgk8L2c%2BCgk8Zz4KCQk8Zz4KCQkJPHBhdGggY2xhc3M9InN0MCIgZD0iTTAsNC41YzAtMC40LDAuMy0wLjcsMC44LTAuN2g3LjhMNi4xLDEuM0M1LjgsMSw1LjgsMC41LDYuMSwwLjJjMC4zLTAuMywwLjgtMC4zLDEuMSwwbDMuNywzLjcKCQkJCUMxMC45LDQsMTEsNC4yLDExLDQuM2MwLDAsMCwwLjEsMCwwLjFjMCwwLDAsMC4xLDAsMC4xYzAsMCwwLDAuMSwwLDAuMWMwLDAsMCwwLDAsMGMwLDAuMS0wLjEsMC4yLTAuMiwwLjJMNy4xLDguNwoJCQkJQzYuOCw5LDYuNCw5LDYuMSw4LjdjLTAuMy0wLjMtMC4zLTAuOCwwLTEuMWwyLjQtMi40SDAuOEMwLjMsNS4yLDAsNC45LDAsNC41eiIvPgoJCTwvZz4KCTwvZz4KPC9nPgo8L3N2Zz4%3D);
+  transition: all 200ms cubic-bezier(0.2, 0.3, 0.25, 0.9) 0s;
+  transform: translateX(6px);
+}
+
+/* line 249, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/checkr.scss */
+#section_1_content button:hover:after {
+  transform: translateX(8px);
+}
+
+/* #screen_1_content > :nth-child(2) { */
+/* line 254, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/checkr.scss */
+#section_1_content > video {
+  flex: 45%;
+  /* équivaut à un zoom */
+}
+
+/* line 259, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/checkr.scss */
+#section_2 {
+  background-color: white;
+  padding-top: 80px;
+  padding-bottom: 60px;
+}
+
+/* line 265, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/checkr.scss */
+#section_2 > div {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 250px 0px 250px;
+}
+
+/* line 277, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/checkr.scss */
+#section_3 {
+  background-color: #f5f9fb;
+  border-top: 1px solid #c1c1c1;
+  padding-right: 120px;
+  padding-left: 120px;
+  padding-bottom: 30px;
+}
+
+/* line 285, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/checkr.scss */
+#section_3 > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* line 291, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/checkr.scss */
+#section_3 > div > div {
+  text-align: center;
+  width: 330px;
+  margin: 20px 30px 0px 30px;
+}
+
+/* line 297, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/checkr.scss */
+#section_3 > div > div > p {
+  color: gray;
+  font-size: 16px;
+}
+
+/* line 302, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/checkr.scss */
+#section_4 {
+  background-color: white;
+  height: 500px;
+  border-top: 1px solid #c1c1c1;
+  padding-right: 120px;
+  padding-left: 120px;
+}
+
+/* line 310, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/checkr.scss */
+#section_4 > div {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* line 315, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/checkr.scss */
+#section_4 > div > div {
+  width: 290px;
+  height: 190px;
+  margin: 5px;
+  background: 50% 50% / cover no-repeat;
+  transition: opacity 200ms;
+  cursor: pointer;
+}
+
+/* line 324, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/checkr.scss */
+#section_4 > div > div > div {
+  display: none;
+  width: 290px;
+  height: 190px;
+  background-color: rgba(60, 121, 187, 0.82);
+  text-align: center;
+}
+
+/* line 332, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/checkr.scss */
+#section_4 > div > div > div > p {
+  margin: 0px;
+  padding: 0px 10px 0px 10px;
+  font-size: 16px;
+}
+
+/* line 338, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/checkr.scss */
+#section_4 > div > div:hover {
+  opacity: 0.5;
+}
+
+/* line 342, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/checkr.scss */
+#section_4 > div > div:hover > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 348, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/checkr.scss */
+#section_5 {
+  background-color: #f5f9fb;
+  height: 430px;
+  border-top: 1px solid #c1c1c1;
+  padding-right: 120px;
+  padding-left: 120px;
+}
+
+/* line 356, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/checkr.scss */
+#section_5 > div {
+  display: flex;
+  justify-content: center;
+}
+
+/* line 363, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/checkr.scss */
+#section_5 > div > div {
+  width: 330px;
+  margin: 20px 30px 0px 30px;
+  border-style: solid;
+  border-color: grey;
+  border: 2px;
+}
+
+/* line 372, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/checkr.scss */
+#section_5 > div > div > h2 {
+  text-align: center;
+}
+
+/* line 376, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/checkr.scss */
+#section_5 > div > div > p {
+  color: gray;
+  font-size: 16px;
+  text-align: left;
+}
+
+/* line 382, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/checkr.scss */
+#section_6 {
+  background-color: white;
+  height: 430px;
+  border-top: 1px solid #c1c1c1;
+  padding-right: 120px;
+  padding-left: 120px;
+}
+
+/* line 390, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/checkr.scss */
+#section_6 > div {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* line 397, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/checkr.scss */
+#section_6 > div > div {
+  width: 330px;
+  margin: 20px 30px 0px 30px;
+  border-style: solid;
+  border-color: grey;
+  border: 2px;
+}
+
+/* line 406, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/checkr.scss */
+#section_6 > div > div > h2 {
+  text-align: center;
+}
+
+/* line 410, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/checkr.scss */
+#section_6 > div > div > p {
+  color: gray;
+  font-size: 16px;
+  text-align: left;
+}
+
+/* line 416, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/checkr.scss */
+#section_6 > div > div > div > p {
+  color: gray;
+  font-size: 16px;
+  text-align: left;
+}
+
+/* line 422, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/checkr.scss */
+#section_6 > div > div > div > h4 {
+  color: black;
+  font-size: 16px;
+  text-align: left;
+}
+
+/* line 428, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/checkr.scss */
+#screen_7 {
+  background-color: #3f7ab9;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  margin-bottom: 0;
+}
+
+/* line 437, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/checkr.scss */
+#section_7 img {
+  width: 20%;
+  height: auto;
+}
+
+/* line 443, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/checkr.scss */
+#section_7 h3 {
+  font-size: 200%;
+  font-weight: bold;
+}
+
+/* line 449, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/checkr.scss */
+.toooorcenter {
+  width: 20%;
+}
+
+/* line 453, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/checkr.scss */
+#section_7 button {
+  width: 20%;
+  background-color: #112532;
+  padding: 25px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 120%;
+}
+
+/* line 464, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/checkr.scss */
+.mmfooter {
+  background-color: #102533;
+  color: white;
+  padding-top: 40px;
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+/* line 475, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/checkr.scss */
+.surfooter h4 {
+  color: #8FA1B2;
+  border-bottom: 1px solid #3d4d56;
+}
+
+/* line 480, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/checkr.scss */
+.surfooter {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  margin: auto;
+}
+
+/* line 487, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/checkr.scss */
+.surfooter li {
+  list-style-type: none;
+}
+
+/* line 491, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/checkr.scss */
+.surfooter li:hover {
+  list-style-type: none;
+  border-bottom: 1px solid #46A6C7;
+}
+
+/* line 496, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/checkr.scss */
+.footlist {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* line 502, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/checkr.scss */
+.twitter {
+  width: 20px;
+  height: auto;
+}
+
+/* line 507, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/checkr.scss */
+.subfooter {
+  color: #90A1B1;
+  width: 30%;
+}
+
+/* line 513, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/checkr.scss */
+.footer-info ul {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+}
+
+/* line 520, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/checkr.scss */
+.subfooter li {
+  list-style-type: none;
+}
+
+/* line 524, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/checkr.scss */
+.subfooter a {
+  text-decoration: none;
+  color: #90A1B1;
+}
+
+/* line 529, /Users/matisumi/Documents/THP/Week7/Day2/exo/landing-pages/app/assets/stylesheets/checkr.scss */
+.subfooter li:hover {
+  border-bottom: 1px solid #46A6C7;
+}
+
+@font-face {
+  font-family: fab-font;
+  src: url(https://use.typekit.net/af/26c4cd/00000000000000003b9ad1b1/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3) format("woff2"), url(https://use.typekit.net/af/26c4cd/00000000000000003b9ad1b1/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3) format("woff"), url(https://use.typekit.net/af/26c4cd/00000000000000003b9ad1b1/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3) format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+/*Les différents formats, WOFF/2 accéptés par les différens navigateurs*/
